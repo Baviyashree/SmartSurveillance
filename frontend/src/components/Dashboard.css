@@ -1,0 +1,36 @@
+.dashboard {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+   height: 100vh;  /* Fit within one screen */
+  overflow: hidden; 
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.start-btn {
+  background: #2c2c63;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
